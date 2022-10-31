@@ -1,3 +1,11 @@
+-- It *does* exist, at least in this branch. 
+-- This causes a problem if both
+--   - this SQL and 
+--   - backend/de.metas.material/cockpit/src/main/sql/postgresql/system/75-material-cockpit/5642910_sys_gh13162_MD_Available_For_Sales.sql
+-- are applied during the same run, because that that point, the select on ad_mingrationscript won't yet bring any results.
+--
+
+/*
 DO
 $do$
 BEGIN
@@ -37,3 +45,4 @@ BEGIN
   END IF;
 END
 $do$
+*/
