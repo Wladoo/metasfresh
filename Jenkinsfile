@@ -26,7 +26,7 @@ properties([
                         description: 'If true, then don\'t build backend, even if there were changes or <code>MF_FORCE_FULL_BUILD</code> is set to <code>true<code>',
                         name: 'MF_FORCE_SKIP_BACKEND_BUILD'),
 
-                booleanParam(defaultValue: false,
+                booleanParam(defaultValue: true,
                         description: 'If true, and the backend is build, then don\'t run the cucumber tests',
                         name: 'MF_FORCE_SKIP_CUCUMBER_BUILD'),
 
