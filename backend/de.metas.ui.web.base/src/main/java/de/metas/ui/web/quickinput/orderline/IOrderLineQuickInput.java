@@ -1,9 +1,9 @@
 package de.metas.ui.web.quickinput.orderline;
 
-import de.metas.contracts.model.I_C_Flatrate_Conditions;
 import de.metas.handlingunits.model.I_M_HU_PI_Item_Product;
 import de.metas.ui.web.window.datatypes.LookupValue.IntegerLookupValue;
 
+import javax.annotation.Nullable;
 import java.math.BigDecimal;
 
 /*
@@ -66,4 +66,17 @@ public interface IOrderLineQuickInput
 	void setC_Flatrate_Conditions_ID(int C_Flatrate_Conditions_ID);
 	int getC_Flatrate_Conditions_ID();
 	//@formatter:on
+
+	//@formatter:off
+	String COLUMNNAME_DocSubType = "DocSubType";
+	void setDocSubType (@Nullable java.lang.String DocSubType);
+	@Nullable java.lang.String getDocSubType();
+	//@formatter:on
+
+	//@formatter:off
+	String COLUMNNAME_C_Flatrate_Term_ID = "C_Flatrate_Term_ID";
+	void setC_Flatrate_Term_ID (int C_Flatrate_Term_ID);
+	int getC_Flatrate_Term_ID();
+	//@formatter:on
+
 }

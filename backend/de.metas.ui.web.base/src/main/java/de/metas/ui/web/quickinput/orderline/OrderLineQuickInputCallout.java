@@ -11,7 +11,6 @@ import de.metas.product.ProductId;
 import de.metas.ui.web.quickinput.QuickInput;
 import de.metas.ui.web.quickinput.field.DefaultPackingItemCriteria;
 import de.metas.ui.web.quickinput.field.PackingItemProductFieldHelper;
-import de.metas.ui.web.window.datatypes.LookupValue;
 import de.metas.ui.web.window.descriptor.sql.ProductLookupDescriptor;
 import de.metas.ui.web.window.descriptor.sql.ProductLookupDescriptor.ProductAndAttributes;
 import de.metas.util.Services;
@@ -71,6 +70,16 @@ final class OrderLineQuickInputCallout
 		updateM_HU_PI_Item_Product(quickInput);
 		updateBestBeforePolicy(quickInput);
 		updateCompensationGroup(quickInput);
+		updateDocSubType(quickInput);
+	}
+
+	private void updateDocSubType(final QuickInput quickInput) // TODO
+	{
+		if (!quickInput.hasField(IOrderLineQuickInput.COLUMNNAME_C_Flatrate_Term_ID))
+		{
+			return;
+		}
+
 	}
 
 	private void updateM_HU_PI_Item_Product(@NonNull final QuickInput quickInput)
