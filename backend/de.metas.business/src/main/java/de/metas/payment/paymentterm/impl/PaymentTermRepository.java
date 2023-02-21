@@ -2,6 +2,7 @@ package de.metas.payment.paymentterm.impl;
 
 import de.metas.organization.OrgId;
 import de.metas.payment.paymentterm.IPaymentTermRepository;
+import de.metas.payment.paymentterm.PaymentTerm;
 import de.metas.payment.paymentterm.PaymentTermId;
 import de.metas.util.Check;
 import de.metas.util.Services;
@@ -9,7 +10,9 @@ import de.metas.util.lang.Percent;
 import lombok.NonNull;
 import org.adempiere.ad.dao.IQueryBL;
 import org.adempiere.ad.dao.IQueryBuilder;
+import org.adempiere.exceptions.AdempiereException;
 import org.adempiere.exceptions.DBMoreThanOneRecordsFoundException;
+import org.adempiere.model.InterfaceWrapperHelper;
 import org.compiere.model.I_C_PaymentTerm;
 import org.compiere.util.Env;
 
@@ -41,15 +44,56 @@ import static org.adempiere.model.InterfaceWrapperHelper.loadOutOfTrx;
  * #L%
  */
 
-public class PaymentTermRepository implements IPaymentTermRepository
+public class PaymentTermRepository
 {
-	@Override
-	public I_C_PaymentTerm getById(@NonNull final PaymentTermId paymentTermId)
+
+	private final IQueryBL queryBL = Services.get(IQueryBL.class);
+
+	public static PaymentTerm fromRecord(final I_C_PaymentTerm record)
 	{
-		return loadOutOfTrx(paymentTermId, I_C_PaymentTerm.class);
+		try
+		{
+			return PaymentTerm.builder()
+					.id(extractId(record))
+					.orgId(OrgId.ofRepoId(record.getAD_Org_ID()))
+					.discount(record.getDiscount())
+					.discount2(record.getDiscount2())
+					.discountDays(record.getDiscountDays())
+					.discountDays2(record.getDiscountDays2())
+					.graceDays(record.getGraceDays())
+					.netDays(record.getNetDays())
+					.netDay(record.getNetDay())
+					._default(record.isDefault())
+					.allowOverrideDueDate(record.isAllowOverrideDueDate())
+					.valid(record.isValid())
+					.build();
+		}
+		catch (final Exception ex)
+		{
+			throw AdempiereException.wrapIfNeeded(ex)
+					.setParameter("ID", record.getC_PaymentTerm_ID())
+					.appendParametersToMessage();
+		}
 	}
 
-	@Override
+	@NonNull
+	private static PaymentTermId extractId(final I_C_PaymentTerm record)
+	{
+		return PaymentTermId.ofRepoId(record.getC_PaymentTerm_ID());
+	}
+
+	public PaymentTerm getById(@NonNull PaymentTermId id)
+	{
+		final I_C_PaymentTerm record = getRecordById(id);
+		return fromRecord(record);
+	}
+
+	private I_C_PaymentTerm getRecordById(final @NonNull PaymentTermId id)
+	{
+		return InterfaceWrapperHelper.load(id, I_C_PaymentTerm.class);
+	}
+
+
 	public Percent getPaymentTermDiscount(@Nullable final PaymentTermId paymentTermId)
 	{
 		if (paymentTermId == null)
@@ -57,7 +101,7 @@ public class PaymentTermRepository implements IPaymentTermRepository
 			return Percent.ZERO;
 		}
 
-		final I_C_PaymentTerm paymentTerm = getById(paymentTermId);
+		final PaymentTerm paymentTerm = getById(paymentTermId);
 		if (paymentTerm == null)
 		{
 			return Percent.ZERO;
@@ -66,8 +110,6 @@ public class PaymentTermRepository implements IPaymentTermRepository
 		return Percent.of(paymentTerm.getDiscount());
 	}
 
-	// this method is implemented after a code block from MOrder.beforeSave()
-	@Override
 	public PaymentTermId getDefaultPaymentTermIdOrNull()
 	{
 		final int contextPaymentTerm = Env.getContextAsInt(Env.getCtx(), "#C_PaymentTerm_ID");
@@ -91,11 +133,8 @@ public class PaymentTermRepository implements IPaymentTermRepository
 		return null;
 	}
 
-	@Override
 	public Optional<PaymentTermId> retrievePaymentTermId(@NonNull final PaymentTermQuery query)
 	{
-		final IQueryBL queryBL = Services.get(IQueryBL.class);
-
 		final IQueryBuilder<I_C_PaymentTerm> queryBuilder = queryBL
 				.createQueryBuilder(I_C_PaymentTerm.class)
 				.addOnlyActiveRecordsFilter();
@@ -128,7 +167,6 @@ public class PaymentTermRepository implements IPaymentTermRepository
 		}
 	}
 
-	@Override
 	public boolean isAllowOverrideDueDate(@NonNull final PaymentTermId paymentTermId)
 	{
 		return Services.get(IQueryBL.class)
