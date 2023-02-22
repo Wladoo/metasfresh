@@ -1,5 +1,9 @@
 package de.metas.payment.paymentterm.impl;
 
+import com.google.common.collect.ImmutableList;
+import de.metas.acct.model.I_C_VAT_Code;
+import de.metas.cache.annotation.CacheCtx;
+import de.metas.forex.ForexContractRepository;
 import de.metas.organization.OrgId;
 import de.metas.payment.paymentterm.IPaymentTermRepository;
 import de.metas.payment.paymentterm.PaymentTerm;
@@ -10,14 +14,19 @@ import de.metas.util.lang.Percent;
 import lombok.NonNull;
 import org.adempiere.ad.dao.IQueryBL;
 import org.adempiere.ad.dao.IQueryBuilder;
+import org.adempiere.ad.dao.IQueryOrderBy;
+import org.adempiere.ad.trx.api.ITrx;
 import org.adempiere.exceptions.AdempiereException;
 import org.adempiere.exceptions.DBMoreThanOneRecordsFoundException;
 import org.adempiere.model.InterfaceWrapperHelper;
+import org.adempiere.util.proxy.Cached;
 import org.compiere.model.I_C_PaymentTerm;
 import org.compiere.util.Env;
 
 import javax.annotation.Nullable;
+import java.util.List;
 import java.util.Optional;
+import java.util.Properties;
 
 import static de.metas.util.Check.isEmpty;
 import static org.adempiere.model.InterfaceWrapperHelper.loadOutOfTrx;
@@ -175,6 +184,27 @@ public class PaymentTermRepository
 				.addEqualsFilter(I_C_PaymentTerm.COLUMNNAME_IsAllowOverrideDueDate, true)
 				.create()
 				.anyMatch();
+	}
+
+	/**
+	 * Retrieves all active payment terms
+	 */
+	@Cached(cacheName = I_C_PaymentTerm.Table_Name+ "#All")
+	public List<PaymentTerm> retrievePaymentTerm()
+	{
+		return queryBL
+				.createQueryBuilder(I_C_PaymentTerm.class)
+				.addOnlyActiveRecordsFilter()
+				//
+				.orderBy()
+				.addColumn(I_C_PaymentTerm.COLUMNNAME_IsDefault)
+				.addColumn(I_C_PaymentTerm.COLUMNNAME_IsAllowOverrideDueDate)
+				.endOrderBy()
+				//
+				.create()
+				.stream()
+				.map(PaymentTermRepository::fromRecord)
+				.collect(ImmutableList.toImmutableList());
 	}
 
 }
