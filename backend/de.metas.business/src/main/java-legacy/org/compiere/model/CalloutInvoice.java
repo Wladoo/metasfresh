@@ -26,6 +26,7 @@ import de.metas.invoice.service.IInvoiceBL;
 import de.metas.logging.MetasfreshLastError;
 import de.metas.payment.PaymentRule;
 import de.metas.payment.paymentterm.IPaymentTermRepository;
+import de.metas.payment.paymentterm.PaymentTerm;
 import de.metas.payment.paymentterm.PaymentTermId;
 import de.metas.pricing.PriceListId;
 import de.metas.pricing.service.IPriceListBL;
@@ -275,7 +276,7 @@ public class CalloutInvoice extends CalloutEngine
 			return NO_ERROR;
 		}
 
-		final I_C_PaymentTerm paymentTerm = Services.get(IPaymentTermRepository.class).getById(paymentTermId);
+		final I_C_PaymentTerm paymentTerm = Services.get(IPaymentTermRepository.class).getRecordById(paymentTermId);
 
 		// TODO: Fix in next step (refactoring: Move the apply method from MPaymentTerm to a BL)
 		final MPaymentTerm pt = InterfaceWrapperHelper.getPO(paymentTerm);

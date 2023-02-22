@@ -39,6 +39,8 @@ public interface IPaymentTermRepository extends ISingletonService
 
 	PaymentTerm getById(PaymentTermId paymentTermId);
 
+	I_C_PaymentTerm getRecordById( PaymentTermId id);
+
 	Optional<PaymentTermId> retrievePaymentTermId(PaymentTermQuery build);
 
 	boolean isAllowOverrideDueDate(@NonNull PaymentTermId paymentTermId);

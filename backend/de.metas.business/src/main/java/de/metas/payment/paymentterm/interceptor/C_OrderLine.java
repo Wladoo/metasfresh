@@ -2,6 +2,7 @@ package de.metas.payment.paymentterm.interceptor;
 
 import java.math.BigDecimal;
 
+import de.metas.payment.paymentterm.PaymentTerm;
 import org.adempiere.ad.callout.annotations.Callout;
 import org.adempiere.ad.callout.annotations.CalloutMethod;
 import org.adempiere.ad.callout.api.ICalloutField;
@@ -86,8 +87,8 @@ public class C_OrderLine
 			return;
 		}
 
-		final I_C_PaymentTerm paymentTermRecord = Services.get(IPaymentTermRepository.class).getById(paymentTermId);
-		final BigDecimal paymentDiscount = paymentTermRecord.getDiscount();
+		final PaymentTerm paymentTerm = Services.get(IPaymentTermRepository.class).getById(paymentTermId);
+		final BigDecimal paymentDiscount = paymentTerm.getDiscount();
 		orderLineRecord.setPaymentDiscount(paymentDiscount);
 	}
 

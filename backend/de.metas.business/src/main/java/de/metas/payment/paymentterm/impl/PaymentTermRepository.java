@@ -14,6 +14,7 @@ import org.adempiere.ad.dao.IQueryBuilder;
 import org.adempiere.exceptions.AdempiereException;
 import org.adempiere.exceptions.DBMoreThanOneRecordsFoundException;
 import org.adempiere.model.InterfaceWrapperHelper;
+import org.adempiere.service.ClientId;
 import org.compiere.model.IQuery;
 import org.compiere.model.I_C_PaymentTerm;
 import org.compiere.util.Env;
@@ -67,7 +68,8 @@ public class PaymentTermRepository implements IPaymentTermRepository
 		});
 	}
 
-	private I_C_PaymentTerm getRecordById(final @NonNull PaymentTermId id)
+	@Override
+	public I_C_PaymentTerm getRecordById(final @NonNull PaymentTermId id)
 	{
 		return InterfaceWrapperHelper.load(id, I_C_PaymentTerm.class);
 	}
@@ -80,6 +82,9 @@ public class PaymentTermRepository implements IPaymentTermRepository
 			return PaymentTerm.builder()
 					.id(extractId(record))
 					.orgId(OrgId.ofRepoId(record.getAD_Org_ID()))
+					.clientId(ClientId.ofRepoId(record.getAD_Client_ID()))
+					.value(record.getValue())
+					.name(record.getName())
 					.discount(record.getDiscount())
 					.discount2(record.getDiscount2())
 					.discountDays(record.getDiscountDays())

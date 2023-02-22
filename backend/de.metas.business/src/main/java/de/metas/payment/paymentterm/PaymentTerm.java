@@ -26,6 +26,7 @@ import de.metas.organization.OrgId;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NonNull;
+import org.adempiere.service.ClientId;
 
 import javax.annotation.Nullable;
 import java.math.BigDecimal;
@@ -36,8 +37,11 @@ public class PaymentTerm
 {
 	@NonNull private final PaymentTermId id;
 	@NonNull private final OrgId orgId;
+	@NonNull private final ClientId clientId;
 	@NonNull private final BigDecimal discount;
 	@NonNull private final BigDecimal discount2;
+	@NonNull private final String value;
+	@NonNull private final String name;
 
 	private final int discountDays;
 	private final int discountDays2;
