@@ -1,9 +1,6 @@
 package de.metas.payment.paymentterm.impl;
 
-import com.google.common.collect.ImmutableList;
-import de.metas.acct.model.I_C_VAT_Code;
-import de.metas.cache.annotation.CacheCtx;
-import de.metas.forex.ForexContractRepository;
+import de.metas.cache.CCache;
 import de.metas.organization.OrgId;
 import de.metas.payment.paymentterm.IPaymentTermRepository;
 import de.metas.payment.paymentterm.PaymentTerm;
@@ -14,22 +11,17 @@ import de.metas.util.lang.Percent;
 import lombok.NonNull;
 import org.adempiere.ad.dao.IQueryBL;
 import org.adempiere.ad.dao.IQueryBuilder;
-import org.adempiere.ad.dao.IQueryOrderBy;
-import org.adempiere.ad.trx.api.ITrx;
 import org.adempiere.exceptions.AdempiereException;
 import org.adempiere.exceptions.DBMoreThanOneRecordsFoundException;
 import org.adempiere.model.InterfaceWrapperHelper;
-import org.adempiere.util.proxy.Cached;
+import org.compiere.model.IQuery;
 import org.compiere.model.I_C_PaymentTerm;
 import org.compiere.util.Env;
 
 import javax.annotation.Nullable;
-import java.util.List;
 import java.util.Optional;
-import java.util.Properties;
 
 import static de.metas.util.Check.isEmpty;
-import static org.adempiere.model.InterfaceWrapperHelper.loadOutOfTrx;
 
 /*
  * #%L
@@ -53,10 +45,33 @@ import static org.adempiere.model.InterfaceWrapperHelper.loadOutOfTrx;
  * #L%
  */
 
-public class PaymentTermRepository
+public class PaymentTermRepository implements IPaymentTermRepository
 {
 
 	private final IQueryBL queryBL = Services.get(IQueryBL.class);
+	private final CCache<PaymentTermId, PaymentTerm> paymentTermCCacheById = CCache.newCache(I_C_PaymentTerm.Table_Name, 50, CCache.EXPIREMINUTES_Never);
+
+
+	@NonNull
+	private static PaymentTermId extractId(final I_C_PaymentTerm record)
+	{
+		return PaymentTermId.ofRepoId(record.getC_PaymentTerm_ID());
+	}
+
+	@Override
+	public PaymentTerm getById(@NonNull PaymentTermId id)
+	{
+		return paymentTermCCacheById.getOrLoad(id, () -> {
+			final I_C_PaymentTerm record = getRecordById(id);
+			return fromRecord(record);
+		});
+	}
+
+	private I_C_PaymentTerm getRecordById(final @NonNull PaymentTermId id)
+	{
+		return InterfaceWrapperHelper.load(id, I_C_PaymentTerm.class);
+	}
+
 
 	public static PaymentTerm fromRecord(final I_C_PaymentTerm record)
 	{
@@ -85,24 +100,7 @@ public class PaymentTermRepository
 		}
 	}
 
-	@NonNull
-	private static PaymentTermId extractId(final I_C_PaymentTerm record)
-	{
-		return PaymentTermId.ofRepoId(record.getC_PaymentTerm_ID());
-	}
-
-	public PaymentTerm getById(@NonNull PaymentTermId id)
-	{
-		final I_C_PaymentTerm record = getRecordById(id);
-		return fromRecord(record);
-	}
-
-	private I_C_PaymentTerm getRecordById(final @NonNull PaymentTermId id)
-	{
-		return InterfaceWrapperHelper.load(id, I_C_PaymentTerm.class);
-	}
-
-
+	@Override
 	public Percent getPaymentTermDiscount(@Nullable final PaymentTermId paymentTermId)
 	{
 		if (paymentTermId == null)
@@ -119,6 +117,7 @@ public class PaymentTermRepository
 		return Percent.of(paymentTerm.getDiscount());
 	}
 
+	@Override
 	public PaymentTermId getDefaultPaymentTermIdOrNull()
 	{
 		final int contextPaymentTerm = Env.getContextAsInt(Env.getCtx(), "#C_PaymentTerm_ID");
@@ -144,8 +143,22 @@ public class PaymentTermRepository
 
 	public Optional<PaymentTermId> retrievePaymentTermId(@NonNull final PaymentTermQuery query)
 	{
-		final IQueryBuilder<I_C_PaymentTerm> queryBuilder = queryBL
-				.createQueryBuilder(I_C_PaymentTerm.class)
+		try
+		{
+			final PaymentTermId firstId = toSqlQuery(query)
+					.firstIdOnly(PaymentTermId::ofRepoIdOrNull);
+			return Optional.ofNullable(firstId);
+		}
+		catch (final DBMoreThanOneRecordsFoundException e)
+		{
+			// augment and rethrow
+			throw e.appendParametersToMessage().setParameter("paymentTermQuery", query);
+		}
+	}
+
+	private IQuery<I_C_PaymentTerm> toSqlQuery(@NonNull PaymentTermQuery query)
+	{
+		final IQueryBuilder<I_C_PaymentTerm> queryBuilder = queryBL.createQueryBuilder(I_C_PaymentTerm.class)
 				.addOnlyActiveRecordsFilter();
 
 		Check.assumeNotNull(query.getOrgId(), "Org Id is missing from PaymentTermQuery ", query);
@@ -162,49 +175,14 @@ public class PaymentTermRepository
 			queryBuilder.addEqualsFilter(I_C_PaymentTerm.COLUMNNAME_Value, query.getValue());
 		}
 
-		try
-		{
-			final PaymentTermId firstId = queryBuilder
-					.create()
-					.firstIdOnly(PaymentTermId::ofRepoIdOrNull);
-			return Optional.ofNullable(firstId);
-		}
-		catch (final DBMoreThanOneRecordsFoundException e)
-		{
-			// augment and rethrow
-			throw e.appendParametersToMessage().setParameter("paymentTermQuery", query);
-		}
+		return queryBuilder.create();
 	}
 
 	public boolean isAllowOverrideDueDate(@NonNull final PaymentTermId paymentTermId)
 	{
-		return Services.get(IQueryBL.class)
-				.createQueryBuilder(I_C_PaymentTerm.class)
-				.addEqualsFilter(I_C_PaymentTerm.COLUMNNAME_C_PaymentTerm_ID, paymentTermId)
-				.addEqualsFilter(I_C_PaymentTerm.COLUMNNAME_IsAllowOverrideDueDate, true)
-				.create()
-				.anyMatch();
-	}
+		final PaymentTerm paymentTerm = getById(paymentTermId);
 
-	/**
-	 * Retrieves all active payment terms
-	 */
-	@Cached(cacheName = I_C_PaymentTerm.Table_Name+ "#All")
-	public List<PaymentTerm> retrievePaymentTerm()
-	{
-		return queryBL
-				.createQueryBuilder(I_C_PaymentTerm.class)
-				.addOnlyActiveRecordsFilter()
-				//
-				.orderBy()
-				.addColumn(I_C_PaymentTerm.COLUMNNAME_IsDefault)
-				.addColumn(I_C_PaymentTerm.COLUMNNAME_IsAllowOverrideDueDate)
-				.endOrderBy()
-				//
-				.create()
-				.stream()
-				.map(PaymentTermRepository::fromRecord)
-				.collect(ImmutableList.toImmutableList());
+		return paymentTerm.isAllowOverrideDueDate();
 	}
 
 }

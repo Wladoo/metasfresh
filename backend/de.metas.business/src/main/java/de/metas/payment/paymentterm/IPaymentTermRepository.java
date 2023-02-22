@@ -37,7 +37,7 @@ public interface IPaymentTermRepository extends ISingletonService
 
 	PaymentTermId getDefaultPaymentTermIdOrNull();
 
-	I_C_PaymentTerm getById(PaymentTermId paymentTermId);
+	PaymentTerm getById(PaymentTermId paymentTermId);
 
 	Optional<PaymentTermId> retrievePaymentTermId(PaymentTermQuery build);
 

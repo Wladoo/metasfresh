@@ -20,33 +20,16 @@
  * #L%
  */
 
-package de.metas.payment.paymentterm;
+package de.metas.payment.paymentterm.impl;
 
-import de.metas.organization.OrgId;
+import de.metas.payment.paymentterm.PaymentTermId;
 import lombok.Builder;
-import lombok.Getter;
 import lombok.NonNull;
 
-import javax.annotation.Nullable;
-import java.math.BigDecimal;
-
 @Builder
-@Getter
-public class PaymentTerm
+public class PaymentTermQueryMatchingRequest
 {
-	@NonNull private final PaymentTermId id;
-	@NonNull private final OrgId orgId;
-	@NonNull private final BigDecimal discount;
-	@NonNull private final BigDecimal discount2;
-
-	private final int discountDays;
-	private final int discountDays2;
-	private final int graceDays;
-	private final int netDays;
-
-	@Nullable private final String netDay;
-	final boolean _default;
-	final boolean allowOverrideDueDate;
-	final  boolean valid;
-
+	@NonNull final PaymentTermId paymentTermId;
+	final boolean isAllowOverrideDueDate;
+	final boolean isDefault;
 }
