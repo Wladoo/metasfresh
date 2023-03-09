@@ -380,7 +380,7 @@ public class MovingAverageInvoiceCostingMethodHandler extends CostingMethodHandl
 				: amtDifference.divide(receiptQty, currentCost.getPrecision());
 
 		final Quantity qtyStillInStock = currentCost.getCurrentQty().min(receiptQty);
-		final CostAmount costAdjustmentAmt = priceDifference.multiply(qtyStillInStock);
+		final CostAmount costAdjustmentAmt = priceDifference.multiply(qtyStillInStock).roundToPrecisionIfNeeded(currentCost.getPrecision());
 		final CostAmount alreadyShippedAmt = amtDifference.subtract(costAdjustmentAmt);
 
 		return CostAmountDetailed.builder()
