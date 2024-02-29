@@ -1,0 +1,3053 @@
+repo_name: Wladoo/metasfresh
+report_id: d516f69649326158aa3a720d78178187
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T20:13:44+00:00'
+requested_by: chemsnouioua
+provider: github
+branch: master
+detected_tools_count: 266
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de-metas-salesorder/src/main/sql/postgresql/system/5611420_sys_gh11947_entity_de_metas_salesorder.sql
+  detection_source: backend/de-metas-salesorder/src/main/sql/postgresql/system/5611420_sys_gh11947_entity_de_metas_salesorder.sql
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: D3.js
+  description: A JavaScript visualization library for HTML and SVG
+  website_url: http://d3js.org/
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+- name: JFreeChart
+  description: A free Java chart library
+  website_url: http://www.jfree.org/jfreechart/
+  version: 1.0.19
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/8591/Picture_6_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/package.json
+  detection_source: e2e/package.json
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: React Hot Loader
+  description: Tweak React components in real time
+  website_url: http://gaearon.github.io/react-hot-loader/
+  version: 4.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.1.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.acct.base/pom.xml
+  detection_source: backend/de.metas.acct.base/pom.xml
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 6.4.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/package.json
+  detection_source: e2e/package.json
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.migration/de.metas.migration.base/pom.xml
+  detection_source: backend/de.metas.migration/de.metas.migration.base/pom.xml
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+- name: reselect
+  description: Selector library for Redux
+  website_url: https://github.com/reactjs/reselect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/7757/13142323.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+- name: DbGate
+  description: Open source (no)SQL database manager
+  website_url: https://dbgate.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/25708/default_9b28428d24a0e4e1d5256c3b7ce3bd30e6556d56.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/dev-support/docker/infrastructure/docker-compose.yml
+  detection_source: misc/dev-support/docker/infrastructure/docker-compose.yml
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.vertical.pharma.msv3.server/pom.xml
+  detection_source: backend/de.metas.vertical.pharma.msv3.server/pom.xml
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.cucumber/pom.xml
+  detection_source: backend/de.metas.cucumber/pom.xml
+- name: Spring Data
+  description: Provides a consistent approach to data access – relational, non-relational,
+    map-reduce, and beyond
+  website_url: https://spring.io/projects/spring-data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7624/IG6D4Ro2_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.ui.web.base/pom.xml
+  detection_source: backend/de.metas.ui.web.base/pom.xml
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/babel.config.js
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 7.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/dev-support/docker/elk/docker-compose.yml
+  detection_source: misc/dev-support/docker/elk/docker-compose.yml
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/.eslintrc
+  detection_source: e2e/.eslintrc
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: FindBugs
+  description: An open-source static code analyser
+  website_url: http://findbugs.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.business.rest-api/pom.xml
+  detection_source: backend/de.metas.business.rest-api/pom.xml
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/.github/workflows/cicd.yaml
+  detection_source: ".github/workflows/cicd.yaml"
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 27.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/dev-support/docker/elk/docker-compose.yml
+  detection_source: misc/dev-support/docker/elk/docker-compose.yml
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: Loki
+  description: Like Prometheus, but for logs (by the makers of Grafana)
+  website_url: https://github.com/grafana/loki
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/10079/loki.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 9.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.acct.webui/pom.xml
+  detection_source: backend/de.metas.acct.webui/pom.xml
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.monitoring/pom.xml
+  detection_source: backend/de.metas.monitoring/pom.xml
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 14.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.61.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/yarn.lock
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 16.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service-standalone/src/main/resources/application.properties
+  detection_source: backend/de.metas.report/metasfresh-report-service-standalone/src/main/resources/application.properties
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.documentation/pom.xml
+  detection_source: backend/de.metas.documentation/pom.xml
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/dev-support/docker/elk/docker-compose.yml
+  detection_source: misc/dev-support/docker/elk/docker-compose.yml
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.elasticsearch/pom.xml
+  detection_source: backend/de.metas.elasticsearch/pom.xml
+- name: Immutable.js
+  description: Immutable persistent data collections for Javascript which increase
+    efficiency and simplicity, by Facebook
+  website_url: http://facebook.github.io/immutable-js/
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: frontend/package.json
+- name: Luxon
+  description: Library for working with dates and times in Javascript
+  website_url: https://moment.github.io/luxon/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10330/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/package.json
+  detection_source: e2e/package.json
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/Wladoo/metasfresh
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: jsdoc
+  description: An API documentation generator for JavaScript
+  website_url: http://usejsdoc.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/4047/js-doc.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+- name: quagga
+  website_url: http://www.nongnu.org/quagga/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4682/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+- name: xmlunit
+  website_url: https://www.xmlunit.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9143/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.payment.sepa/schema-pain_001_01_03_ch_02/pom.xml
+  detection_source: backend/de.metas.payment.sepa/schema-pain_001_01_03_ch_02/pom.xml
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.business.rest-api-impl/pom.xml
+  detection_source: backend/de.metas.business.rest-api-impl/pom.xml
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.cucumber/pom.xml
+  detection_source: backend/de.metas.cucumber/pom.xml
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.business.rest-api-impl/pom.xml
+  detection_source: backend/de.metas.business.rest-api-impl/pom.xml
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+  description: Data format extension for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.vertical.creditscore/creditpass/pom.xml
+  detection_source: backend/de.metas.vertical.creditscore/creditpass/pom.xml
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.documentation/pom.xml
+  detection_source: backend/de.metas.documentation/pom.xml
+- name: com.fasterxml.jackson.datatype:jackson-datatype-guava
+  description: Add-on datatype-support module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.util/pom.xml
+  detection_source: backend/de.metas.util/pom.xml
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.business.rest-api-impl/pom.xml
+  detection_source: backend/de.metas.business.rest-api-impl/pom.xml
+- name: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+  description: Functionality to handle JSON input/output for JAX-RS implementations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.documentation/pom.xml
+  detection_source: backend/de.metas.documentation/pom.xml
+- name: com.fasterxml.woodstox:woodstox-core
+  description: Woodstox is a high-performance XML processor that implements Stax
+  version: 5.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/de-metas-common/de-metas-common-filemaker/pom.xml
+  detection_source: backend/de.metas.vertical.creditscore/creditpass/pom.xml
+  vulnerabilities:
+  - name: Denial of Service due to parser crash
+    cve_id: CVE-2022-40153
+    cve_url: https://github.com/advisories/GHSA-fv22-xp26-mm9w
+    detected_date: Oct 26
+    severity: high
+    first_patched: 5.4.0
+  - name: Denial of Service due to parser crash
+    cve_id: CVE-2022-40152
+    cve_url: https://github.com/advisories/GHSA-3f7h-mf4q-vrm4
+    detected_date: Oct 26
+    severity: moderate
+    first_patched: 5.4.0
+  - name: Denial of Service via stack overflow
+    cve_id: CVE-2022-40155
+    cve_url: https://github.com/advisories/GHSA-5hc5-c3m9-8vcj
+    detected_date: Oct 26
+    severity: low
+    first_patched: 5.4.0
+  - name: Denial of Service due to parser crash
+    cve_id: CVE-2022-40156
+    cve_url: https://github.com/advisories/GHSA-4rv7-wj6m-6c6r
+    detected_date: Oct 26
+    severity: low
+    first_patched: 5.4.0
+  - name: Denial of Service via stack overflow
+    cve_id: CVE-2022-40154
+    cve_url: https://github.com/advisories/GHSA-9fwf-46g9-45rx
+    detected_date: Oct 26
+    severity: low
+    first_patched: 5.4.0
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40151
+    cve_url: https://github.com/advisories/GHSA-3mq5-fq9h-gj7j
+    detected_date: Oct 27
+    severity: low
+    first_patched: 5.4.0
+- name: com.github.zafarkhaja:java-semver
+  description: Java implementation of the SemVer Specification
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: com.google.code.findbugs:annotations
+  description: Annotation the FindBugs tool supports
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.business.rest-api/pom.xml
+  detection_source: backend/de.metas.business.rest-api/pom.xml
+- name: com.google.code.findbugs:jsr305
+  description: JSR305 Annotations for Findbugs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.invoice_gateway.spi/pom.xml
+  detection_source: backend/de.metas.invoice_gateway.spi/pom.xml
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.migration/de.metas.migration.base/pom.xml
+  detection_source: backend/de.metas.migration/de.metas.migration.base/pom.xml
+- name: com.google.zxing:core
+  description: Core barcode encoding/decoding library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service/pom.xml
+  detection_source: backend/de.metas.report/metasfresh-report-service/pom.xml
+- name: com.google.zxing:javase
+  description: Java SE-specific extensions to core ZXing library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service/pom.xml
+  detection_source: backend/de.metas.report/metasfresh-report-service/pom.xml
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.vertical.pharma.msv3.server/pom.xml
+  detection_source: backend/de.metas.vertical.pharma.msv3.server/pom.xml
+- name: com.jgoodies:jgoodies-looks
+  description: The JGoodies Looks make your Swing applications and applets look better
+  version: 2.7.0
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: com.lowagie:itext
+  description: IText, a free Java-PDF library
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: com.mchange:c3p0
+  description: A JDBC Connection pooling / Statement caching library
+  license: LGPL-2.1+,EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: com.miglayout:miglayout
+  description: MiGLayout - Java Layout Manager for Swing, SWT and JavaFX
+  version: 3.7.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/client/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/client/pom.xml
+- name: com.rabbitmq:amqp-client
+  description: The RabbitMQ Java client library allows Java applications to interface
+    with RabbitMQ
+  license: Apache-2.0,GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.cucumber/pom.xml
+  detection_source: backend/de.metas.cucumber/pom.xml
+- name: commons-cli:commons-cli
+  description: Apache Commons CLI provides a simple API for presenting
+  version: '1.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: commons-codec:commons-codec
+  description: The Apache Commons Codec package contains simple encoder and decoders
+    for various formats such as Base64 and Hexadecimal
+  version: '1.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/de-metas-common/de-metas-common-util/pom.xml
+  detection_source: misc/de-metas-common/de-metas-common-util/pom.xml
+- name: commons-httpclient:commons-httpclient
+  description: The HttpClient component supports the client-side of RFC 1945
+  version: '3.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.document.archive/de.metas.document.archive.base/pom.xml
+  detection_source: backend/de.metas.document.archive/de.metas.document.archive.base/pom.xml
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/de-metas-common/de-metas-common-externalsystem/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.client/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.client/pom.xml
+- name: commons-validator:commons-validator
+  description: Apache Commons Validator provides the building blocks for both client
+    side validation and server side data validation
+  version: '1.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.util/pom.xml
+  detection_source: backend/de.metas.util/pom.xml
+- name: de.codecentric:spring-boot-admin-starter-client
+  description: Spring Boot Admin Client Starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.vertical.pharma.msv3.server/pom.xml
+  detection_source: backend/de.metas.vertical.pharma.msv3.server/pom.xml
+- name: io.cucumber:cucumber-java
+  description: Cucumber for the JVM
+  version: 7.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.cucumber/pom.xml
+  detection_source: backend/de.metas.cucumber/pom.xml
+- name: io.cucumber:cucumber-junit
+  description: Cucumber for the JVM
+  version: 7.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.cucumber/pom.xml
+  detection_source: backend/de.metas.cucumber/pom.xml
+- name: io.micrometer:micrometer-registry-prometheus
+  description: Application monitoring instrumentation facade
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.monitoring/pom.xml
+  detection_source: backend/de.metas.monitoring/pom.xml
+- name: io.springfox:springfox-swagger-ui
+  description: JSON API documentation for spring based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: it.sauronsoftware.cron4j:cron4j
+  description: Cron4j is a scheduler for the Java platform which is very similar to
+    the UNIX cron daemon
+  version: 2.2.5
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: javax.annotation:javax.annotation-api
+  description: Common Annotations for the JavaTM Platform API
+  version: 1.3.2
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.invoice_gateway.spi/pom.xml
+  detection_source: backend/de.metas.invoice_gateway.spi/pom.xml
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: javax.servlet:jstl
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: javax.validation:validation-api
+  description: Bean Validation API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.util/pom.xml
+  detection_source: backend/de.metas.util/pom.xml
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+- name: net.logstash.logback:logstash-logback-encoder
+  description: Logback encoder which will output events as Logstash-compatible JSON
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: net.sf.jasperreports:jasperreports
+  description: JasperReports Library
+  license: LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.client/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.client/pom.xml
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  version: '4.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: 3.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.migration/de.metas.migration.base/pom.xml
+  detection_source: backend/de.metas.migration/de.metas.migration.base/pom.xml
+- name: org.apache.commons:commons-vfs2
+  description: Apache Commons VFS is a Virtual File System library
+  version: '2.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service/pom.xml
+  detection_source: backend/de.metas.report/metasfresh-report-service/pom.xml
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.vertical.pharma.securpharm/pom.xml
+  detection_source: backend/de.metas.externalsystem/pom.xml
+- name: org.apache.lucene:lucene-analyzers-common
+  description: Additional Analyzers
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service/pom.xml
+  detection_source: backend/de.metas.report/metasfresh-report-service/pom.xml
+- name: org.apache.lucene:lucene-core
+  description: Apache Lucene Java Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service/pom.xml
+  detection_source: backend/de.metas.report/metasfresh-report-service/pom.xml
+- name: org.apache.lucene:lucene-queries
+  description: Lucene Queries Module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service/pom.xml
+  detection_source: backend/de.metas.report/metasfresh-report-service/pom.xml
+- name: org.apache.lucene:lucene-queryparser
+  description: Lucene QueryParsers module
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service/pom.xml
+  detection_source: backend/de.metas.report/metasfresh-report-service/pom.xml
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.apache.tomcat.embed:tomcat-embed-jasper
+  description: Core Tomcat implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: org.apache.xmlgraphics:batik-bridge
+  version: '1.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  vulnerabilities:
+  - name: Apache XML Graphics Batik Server-Side Request Forgery vulnerability
+    cve_id: CVE-2022-44729
+    cve_url: https://github.com/advisories/GHSA-gq5f-xv48-2365
+    detected_date: Aug 24
+    severity: high
+    first_patched: '1.17'
+- name: org.apache.xmlgraphics:batik-css
+  version: '1.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+- name: org.apache.xmlgraphics:batik-dom
+  version: '1.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+- name: org.apache.xmlgraphics:batik-gvt
+  version: '1.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+- name: org.apache.xmlgraphics:batik-svg-dom
+  version: '1.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+- name: org.apache.xmlgraphics:batik-util
+  version: '1.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  vulnerabilities:
+  - name: Server-side request forgery (SSRF) in Apache Batik
+    cve_id: CVE-2020-11987
+    cve_url: https://github.com/advisories/GHSA-2h63-qp69-fwvw
+    detected_date: Jan 28
+    severity: high
+    first_patched: '1.14'
+- name: org.aspectj:aspectjweaver
+  description: The AspectJ weaver introduces advices to java classes
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.acct.base/pom.xml
+  detection_source: backend/de.metas.acct.base/pom.xml
+- name: org.codehaus.groovy:groovy-console
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/client/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/client/pom.xml
+- name: org.codehaus.groovy:groovy-jsr223
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.codehaus.janino:janino
+  description: 'The "JANINO" implementation of the "commons-compiler" API: Super-small'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: org.codehaus.woodstox:stax2-api
+  description: Tax2 API is an extension to basic Stax 1.0 API that adds significant
+    new functionality
+  version: '4.1'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/de-metas-common/de-metas-common-filemaker/pom.xml
+  detection_source: backend/de.metas.vertical.creditscore/creditpass/pom.xml
+- name: org.elasticsearch:elasticsearch
+  description: Elasticsearch subproject :server
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.ui.web.base/pom.xml
+  detection_source: backend/de.metas.ui.web.base/pom.xml
+- name: org.hamcrest:hamcrest-library
+  description: A library of Hamcrest matchers - deprecated
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/pom.xml
+  detection_source: backend/pom.xml
+- name: org.javassist:javassist
+  description: Javassist
+  version: 3.21.0
+  license: LGPL-2.1,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.util/pom.xml
+  detection_source: backend/de.metas.util/pom.xml
+- name: org.jfree:jfreechart
+  description: JFreeChart is a class library, written in Java, for generating charts
+  version: 1.0.19
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.jgrapht:jgrapht-core
+  description: Master repository for the JGraphT project
+  version: 1.0.0
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.dlm/base/pom.xml
+  detection_source: backend/de.metas.dlm/base/pom.xml
+- name: org.jolokia:jolokia-core
+  description: Jar file containing servlet and helper classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.jxls:jxls
+  description: Small library for Excel generation based on XLS templates
+  version: 2.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/metasfresh-report-service/pom.xml
+  detection_source: backend/de.metas.report/metasfresh-report-service/pom.xml
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.acct.webui/pom.xml
+  detection_source: backend/de.metas.acct.webui/pom.xml
+- name: org.mockito:mockito-inline
+  description: Mockito preconfigured inline mock maker
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.marketing/cleverreach/pom.xml
+  detection_source: backend/de.metas.marketing/cleverreach/pom.xml
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de-metas-salesorder/pom.xml
+  detection_source: backend/de-metas-salesorder/pom.xml
+- name: org.reflections:reflections
+  description: Reflections - a Java runtime metadata analysis
+  version: 0.9.10
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.util/pom.xml
+  detection_source: backend/de.metas.util/pom.xml
+- name: org.slf4j:jul-to-slf4j
+  description: JUL to SLF4J bridge
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/misc/de-metas-common/de-metas-common-util/pom.xml
+  detection_source: backend/de.metas.issue.tracking.everhour/pom.xml
+- name: org.springframework.boot:spring-boot-autoconfigure
+  description: Spring Boot AutoConfigure
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.ui.web.base/pom.xml
+  detection_source: backend/de.metas.ui.web.base/pom.xml
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.marketing/activecampaign/pom.xml
+  detection_source: backend/de.metas.marketing/activecampaign/pom.xml
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.vertical.pharma.msv3.server/pom.xml
+  detection_source: backend/de.metas.vertical.pharma.msv3.server/pom.xml
+- name: org.springframework.boot:spring-boot-starter-mail
+  description: Starter for using Java Mail and Spring Framework's email sending support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.inbound.mail/pom.xml
+  detection_source: backend/de.metas.inbound.mail/pom.xml
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.acct.base/pom.xml
+  detection_source: backend/de.metas.acct.base/pom.xml
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: org.springframework.boot:spring-boot-starter-tomcat
+  description: Starter for using Tomcat as the embedded servlet container
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/serverRoot/de.metas.adempiere.adempiere.serverRoot.base/pom.xml
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.springframework.boot:spring-boot-starter-websocket
+  description: Starter for building WebSocket applications using Spring Framework's
+    WebSocket support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.ui.web.base/pom.xml
+  detection_source: backend/de.metas.ui.web.base/pom.xml
+- name: org.springframework.boot:spring-boot-test
+  description: Spring Boot Test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.payment.paypal/pom.xml
+  detection_source: backend/de.metas.payment.paypal/pom.xml
+- name: org.springframework.integration:spring-integration-mail
+  description: Spring Integration Mail Support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.inbound.mail/pom.xml
+  detection_source: backend/de.metas.inbound.mail/pom.xml
+- name: org.springframework.security:spring-security-config
+  description: Spring-security-config
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.vertical.pharma.msv3.server/pom.xml
+  detection_source: backend/de.metas.vertical.pharma.msv3.server/pom.xml
+- name: org.springframework.security:spring-security-web
+  description: Spring-security-web
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.vertical.pharma.msv3.server/pom.xml
+  detection_source: backend/de.metas.vertical.pharma.msv3.server/pom.xml
+- name: org.springframework.ws:spring-ws-core
+  description: Spring WS Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.shipper.gateway.dhl/pom.xml
+  detection_source: backend/de.metas.shipper.gateway.dhl/pom.xml
+- name: org.springframework:spring-beans
+  description: Spring Beans
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.client/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.client/pom.xml
+- name: org.springframework:spring-context
+  description: Spring Context
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.client/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.client/pom.xml
+- name: org.springframework:spring-jdbc
+  description: Spring JDBC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/metasfresh-dist/swingui/pom.xml
+  detection_source: backend/metasfresh-dist/swingui/pom.xml
+- name: org.springframework:spring-test
+  description: Spring TestContext Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.payment.paypal/pom.xml
+  detection_source: backend/de.metas.payment.paypal/pom.xml
+- name: org.springframework:spring-tx
+  description: Spring Transaction
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/metasfresh-dist/swingui/pom.xml
+  detection_source: backend/metasfresh-dist/swingui/pom.xml
+- name: org.springframework:spring-web
+  description: Spring Web
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.springframework:spring-webmvc
+  description: Spring Web MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.springframework:spring-websocket
+  description: Spring WebSocket
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.util.web/pom.xml
+  detection_source: backend/de.metas.util.web/pom.xml
+- name: org.swinglabs:swingx
+  description: Contains extensions to the Swing GUI toolkit
+  version: 1.6.1
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.adempiere.adempiere/base/pom.xml
+  detection_source: backend/de.metas.adempiere.adempiere/base/pom.xml
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  version: 1.17.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.cucumber/pom.xml
+  detection_source: backend/de.metas.cucumber/pom.xml
+- name: org.xmlunit:xmlunit-core
+  description: XMLUnit for Java
+  version: 2.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.payment.sepa/schema-pain_001_01_03_ch_02/pom.xml
+  detection_source: backend/de.metas.payment.sepa/schema-pain_001_01_03_ch_02/pom.xml
+- name: xerces:xercesImpl
+  description: Xerces2 is the next generation of high performance, fully compliant
+    XML parsers in the Apache Xerces family
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  detection_source: backend/de.metas.report/de.metas.report.jasper.commons/pom.xml
+  vulnerabilities:
+  - name: Missing XML Validation in Apache Xerces2
+    cve_id: CVE-2013-4002
+    cve_url: https://github.com/advisories/GHSA-7j4h-8wpf-rqfh
+    detected_date: Jul 9
+    severity: high
+    first_patched: 2.12.0
+  - name: Denial of service in Apache Xerces2
+    cve_id: CVE-2012-0881
+    cve_url: https://github.com/advisories/GHSA-vmqm-g3vh-847m
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.12.0
+  - name: Improper Input Validation in Xerces
+    cve_id: CVE-2020-14338
+    cve_url: https://github.com/advisories/GHSA-w4jq-qh47-hvjq
+    detected_date: Jun 24
+    severity: moderate
+    first_patched: 2.12.0.sp3
+  - name: Infinite Loop in Apache Xerces Java
+    cve_id: CVE-2022-23437
+    cve_url: https://github.com/advisories/GHSA-h65f-jvqw-m9fj
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.12.2
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/plugin-proposal-object-rest-spread"
+  description: Compile object rest and spread to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-object-rest-spread
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/plugin-syntax-dynamic-import"
+  description: Allow parsing of import
+  package_url: https://www.npmjs.com/@babel/plugin-syntax-dynamic-import
+  version: 7.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16080/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/plugin-transform-async-to-generator"
+  description: Turn async functions into ES2015 generators
+  package_url: https://www.npmjs.com/@babel/plugin-transform-async-to-generator
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16941/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/plugin-transform-modules-commonjs"
+  description: This plugin transforms ES2015 modules to CommonJS
+  package_url: https://www.npmjs.com/@babel/plugin-transform-modules-commonjs
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16321/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/plugin-transform-regenerator"
+  description: Explode async and generator functions into a state machine
+  package_url: https://www.npmjs.com/@babel/plugin-transform-regenerator
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17209/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: frontend/package.json
+- name: "@babel/polyfill"
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/@babel/polyfill
+  version: 7.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/register"
+  description: Babel require hook
+  package_url: https://www.npmjs.com/@babel/register
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@babel/runtime"
+  description: Babel's modular runtime helpers
+  package_url: https://www.npmjs.com/@babel/runtime
+  version: 7.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: "@mdx-js/mdx"
+  description: Parse MDX and transpile to JSX
+  package_url: https://www.npmjs.com/@mdx-js/mdx
+  version: 1.6.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17807/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 1.6.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: "@storybook/addon-actions"
+  description: Action Logger addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-actions
+  version: 6.4.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: "@storybook/addon-docs"
+  description: Superior documentation for your components
+  package_url: https://www.npmjs.com/@storybook/addon-docs
+  version: 6.4.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17835/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 6.4.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 6.4.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 12.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: axios-mock-adapter
+  description: Axios adapter that allows to easily mock requests
+  package_url: https://www.npmjs.com/axios-mock-adapter
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17391/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 27.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: babel-plugin-dynamic-import-node
+  description: Babel plugin to transpile import
+  package_url: https://www.npmjs.com/babel-plugin-dynamic-import-node
+  version: 2.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16308/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: bundle-loader
+  description: Bundle loader module for webpack
+  package_url: https://www.npmjs.com/bundle-loader
+  version: 0.5.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17712/default_43c2244142d473ead35e8e5c22850dfec0a06c35.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: common-tags
+  description: A few common utility template tags for ES2015
+  package_url: https://www.npmjs.com/common-tags
+  version: 1.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17307/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: frontend/package.json
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: frontend/package.json
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 6.7.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: enzyme-adapter-react-16
+  description: JavaScript Testing utilities for React
+  package_url: https://www.npmjs.com/enzyme-adapter-react-16
+  version: 1.15.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: eslint-plugin-chai-friendly
+  description: This plugin makes 'no-unused-expressions' rule friendly towards chai
+    expect statements
+  package_url: https://www.npmjs.com/eslint-plugin-chai-friendly
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17721/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: eslint-plugin-cypress
+  description: An ESLint plugin for projects using Cypress
+  package_url: https://www.npmjs.com/eslint-plugin-cypress
+  version: 2.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.25.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: eslint-plugin-jest
+  description: Eslint rules for Jest
+  package_url: https://www.npmjs.com/eslint-plugin-jest
+  version: 25.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: globby
+  description: User-friendly glob matching
+  package_url: https://www.npmjs.com/globby
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: frontend/package.json
+- name: history
+  description: Manage session history with JavaScript
+  package_url: https://www.npmjs.com/history
+  version: 4.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: html-loader
+  description: Html loader module for webpack
+  package_url: https://www.npmjs.com/html-loader
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16055/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: identity-obj-proxy
+  description: An identity object using ES6 proxies
+  package_url: https://www.npmjs.com/identity-obj-proxy
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16206/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: immer
+  description: Create your next immutable state by mutating the current one
+  package_url: https://www.npmjs.com/immer
+  version: 9.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16937/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: immutability-helper
+  description: Mutate a copy of data without changing the original source
+  package_url: https://www.npmjs.com/immutability-helper
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17042/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: immutable
+  description: Immutable Data Collections
+  package_url: https://www.npmjs.com/immutable
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16070/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  version: 27.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: jest-enzyme
+  description: Testing Matchers for Enzyme
+  package_url: https://www.npmjs.com/jest-enzyme
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16718/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: jest-junit
+  description: A jest reporter that generates junit xml files
+  package_url: https://www.npmjs.com/jest-junit
+  version: 13.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: jest-localstorage-mock
+  description: Auto mock all localstorage and sessionstorage APIs for your Jest tests
+  package_url: https://www.npmjs.com/jest-localstorage-mock
+  version: 2.4.18
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18662/default_348addf85c19938918faff5bcd79a5ee29764148.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: js-base64
+  description: Yet another Base64 transcoder in pure-JS
+  package_url: https://www.npmjs.com/js-base64
+  version: 3.7.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16984/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: mocha-junit-reporter
+  description: A JUnit reporter for mocha
+  package_url: https://www.npmjs.com/mocha-junit-reporter
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16739/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  vulnerabilities:
+  - name: Cleartext Transmission of Sensitive Information in moment-timezone
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v78c-4p63-2j6c
+    detected_date: Aug 31
+    severity: moderate
+    first_patched: 0.5.35
+  - name: Command Injection in moment-timezone
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-56x4-j7p9-fcf9
+    detected_date: Aug 31
+    severity: low
+    first_patched: 0.5.35
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: numeral
+  description: Format and manipulate numbers
+  package_url: https://www.npmjs.com/numeral
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16703/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 15.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: object-hash
+  description: Generate hashes from javascript objects in node and the browser
+  package_url: https://www.npmjs.com/object-hash
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16940/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: postcss-color-function
+  description: PostCSS plugin to transform W3C CSS color function to more compatible
+    CSS
+  package_url: https://www.npmjs.com/postcss-color-function
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17634/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: postcss-import
+  description: PostCSS plugin to import CSS files
+  package_url: https://www.npmjs.com/postcss-import
+  version: 14.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16086/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: postcss-simple-vars
+  description: PostCSS plugin for Sass-like variables
+  package_url: https://www.npmjs.com/postcss-simple-vars
+  version: 6.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17265/default_9b05b1c3b13fc328bf76b8d3fea01ff4688c0c1d.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: postcss-url
+  description: PostCSS plugin to rebase or inline on url
+  package_url: https://www.npmjs.com/postcss-url
+  version: 10.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16228/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: precss
+  description: Use Sass-like markup and staged CSS features in CSS
+  package_url: https://www.npmjs.com/precss
+  version: 4.0.0
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16689/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: frontend/package.json
+- name: query-string
+  description: Parse and stringify URL query strings
+  package_url: https://www.npmjs.com/query-string
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-autosuggest
+  description: WAI-ARIA compliant React autosuggest component
+  package_url: https://www.npmjs.com/react-autosuggest
+  version: 9.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18089/image.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-datetime
+  description: A lightweight but complete datetime picker React.js component
+  package_url: https://www.npmjs.com/react-datetime
+  version: 2.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18698/default_fc5b023c2170b00beeade822bdceeaf129047406.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-dnd
+  description: Drag and Drop for React
+  package_url: https://www.npmjs.com/react-dnd
+  version: 14.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16710/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-dnd-html5-backend
+  description: HTML5 backend for React DnD
+  package_url: https://www.npmjs.com/react-dnd-html5-backend
+  version: 14.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16799/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: react-dropzone
+  description: Simple HTML5 drag-drop zone with React.js
+  package_url: https://www.npmjs.com/react-dropzone
+  version: 4.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-onclickoutside
+  description: An onClickOutside wrapper for React components
+  package_url: https://www.npmjs.com/react-onclickoutside
+  version: 6.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17730/default_8cfeb169319d5cc646c1e13f8a10e7d7e7430d7c.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-popper
+  description: React wrapper around Popper.js
+  package_url: https://www.npmjs.com/react-popper
+  version: 2.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17809/default_dc034f75f103514d23b4d1a7fe578415d63216ee.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 4.4.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: redux-actions
+  description: Flux Standard Action utlities for Redux
+  package_url: https://www.npmjs.com/redux-actions
+  version: 2.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16990/default_a753a22aef103e9dbba3f82f20c705e33d009143.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: redux-mock-store
+  description: A mock store for testing your redux async action creators and middleware
+  package_url: https://www.npmjs.com/redux-mock-store
+  version: 1.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16721/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: sockjs-client
+  description: SockJS-client is a browser JavaScript library that provides a WebSocket-like
+    object
+  package_url: https://www.npmjs.com/sockjs-client
+  version: 1.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17551/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: throttle-debounce
+  description: Throttle and debounce functions
+  package_url: https://www.npmjs.com/throttle-debounce
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17244/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: frontend/package.json
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/e2e/yarn.lock
+  detection_source: e2e/package.json
+- name: webpack-node-externals
+  description: Easily exclude node_modules in Webpack bundle
+  package_url: https://www.npmjs.com/webpack-node-externals
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16156/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/Wladoo/metasfresh/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
